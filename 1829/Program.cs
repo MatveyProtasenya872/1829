@@ -26,12 +26,6 @@ namespace _1829
                     case 0:
                         Console.WriteLine("Программа завершена.");
                         break;
-                    case 4:
-                        {
-                            double result = a / b;
-                            Console.WriteLine("Результат: " + result);
-                            break;
-                        }
                     case 1:
                         {
                             int result = a + b;
@@ -50,7 +44,13 @@ namespace _1829
                             Console.WriteLine("Результат: " + result);
                             break;
                         }
-                    
+                    case 4:
+                        {
+                            double result = a / b;
+                            Console.WriteLine("Результат: " + result);
+                            break;
+                        }
+
                     default:
                         Console.WriteLine("Введите верный элемент меню");
                         break;
