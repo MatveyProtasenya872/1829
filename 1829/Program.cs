@@ -15,6 +15,19 @@ namespace _1829
             Console.WriteLine("Введите число A:");
             int a = Convert.ToInt32(Console.ReadLine());
 
+
+
+
+
+
+
+
+
+
+
+
+
+
         }
     }
 }
