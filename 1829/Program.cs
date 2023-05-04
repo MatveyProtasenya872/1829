@@ -16,6 +16,7 @@ namespace _1829
             int a = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Введите число B:");
             int b = Convert.ToInt32(Console.ReadLine());
+
             while (exit != 0)
             {
                 Console.WriteLine("1 + ) 2 - ) 3 * ) 4 / )");
@@ -36,6 +37,7 @@ namespace _1829
                         break;
                 }
             }
+
         }
     }
 }
