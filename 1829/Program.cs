@@ -11,12 +11,10 @@ namespace _1829
         static void Main(string[] args)
         {
             int exit = -1;
-
             Console.WriteLine("Введите число A:");
             int a = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Введите число B:");
             int b = Convert.ToInt32(Console.ReadLine());
-
             while (exit != 0)
             {
                 Console.WriteLine("1 + ) 2 - ) 3 * ) 4 / )");
@@ -50,7 +48,6 @@ namespace _1829
                             Console.WriteLine("Результат: " + result);
                             break;
                         }
-
                     default:
                         Console.WriteLine("Введите верный элемент меню");
                         break;
