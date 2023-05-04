@@ -24,27 +24,9 @@ namespace _1829
                     case 0:
                         Console.WriteLine("Программа завершена.");
                         break;
-                    case 1:
-                        {
-                            int result = a + b;
-                            Console.WriteLine("Результат: "+result);
-                            break;
-                        }
                     case 2:
                         {
                             int result = a - b;
-                            Console.WriteLine("Результат: " + result);
-                            break;
-                        }
-                    case 3:
-                        {
-                            int result = a * b;
-                            Console.WriteLine("Результат: " + result);
-                            break;
-                        }
-                    case 4:
-                        {
-                            double result = a / b;
                             Console.WriteLine("Результат: " + result);
                             break;
                         }
