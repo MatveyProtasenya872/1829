@@ -38,6 +38,12 @@ namespace _1829
 
 
 
+
+
+            int exit = -1;
+            Console.WriteLine("Введите число A:");
+            int a = Convert.ToInt32(Console.ReadLine());
+
         }
     }
 }
