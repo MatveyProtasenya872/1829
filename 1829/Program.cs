@@ -53,6 +53,7 @@ namespace _1829
                         break;
                 }
             }
+            Console.WriteLine("Изменения 1319.");
         }
     }
 }
